@@ -9,6 +9,6 @@ public class ConfigMapController {
 
     @GetMapping(value="/config")
     public String getConfig(){
-        return "config..";
+        return "My name= WIG";
     }
 }
